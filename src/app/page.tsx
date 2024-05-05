@@ -6,15 +6,15 @@ import RightProjects from "@/components/RightProjects";
 export default function Home() {
   return (
     <>
-      <GradientDiv className="">
-        <div className="flex p-20 border-spacing-1 text-slate-300 md:flex-row">
-          <div className="w-1/3 min-h-screen h-12">
+      <GradientDiv className="mx-auto min-h-screen max-w-screen-xl px-20">
+        <div className="lg:flex lg:justify-between lg:gap-3 border-spacing-1 text-slate-300">
+          <header className="lg:flex-col lg:items-start lg:w-1/3 lg:sticky lg:top-0 lg:max-h-screen py-20">
             <LeftMenu />
-          </div>
-          <div className="w-2/3 ml-10">
+          </header>
+          <main id="content" className="w-2/3 ml-10 mr-10 pt-20 py-20">
             <RightIntro />
             <RightProjects />
-          </div>
+          </main>
         </div>
       </GradientDiv>
     </>
