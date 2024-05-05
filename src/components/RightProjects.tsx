@@ -86,7 +86,8 @@ const RightProjects = () => {
         </div>
         <div className="w-2/3">
           <p className="text-extrabold text-sky-400 text-xl">
-            SocialApp (Dobooro)
+            SocialApp
+            {/* SocialApp (Dobooro) */}
           </p>
           <p className="text-sm pt-4 text-cyan-100 ">
             In React, Node,Express & MongoDB
@@ -156,17 +157,16 @@ const RightProjects = () => {
       <hr className="w-90 h-px my-4 bg-gray-200 border-0 dark:bg-gray-700" />
       <div className="text-center mt-8 text-gray-300 text-xs">
         <p className="pb-1">Developed with Next.js and Tailwind</p>
-        <p className="pb-1">
-          <a href="">GitHub</a>
-        </p>
         <p>@2024 Dobooro</p>
-        <Image
-          src="/fight-training.gif"
-          width={100}
-          height={100}
-          className="float-right"
-          alt="Taekwondo Owl"
-        />
+        <a href="https://jparkley.github.io/portfolio-react/" target="_blank">
+          <Image
+            src="/fight-training.gif"
+            width={100}
+            height={100}
+            className="float-right"
+            alt="Taekwondo Owl"
+          />
+        </a>
       </div>
     </div>
   );
