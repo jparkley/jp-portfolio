@@ -63,7 +63,7 @@ const LeftMenu = () => {
           </a>
         </div>
       </div>
-      <div className="flex lg:justify-center mt-10 pl-2">
+      <div className="flex lg:justify-center lg:mt-14 mt-10 pl-2">
         <a href="https://www.linkedin.com/in/janelleparklee/" target="_blank">
           <AiFillLinkedin size={42} className="mr-4" />
         </a>
