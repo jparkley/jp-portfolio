@@ -158,7 +158,7 @@ const RightProjects = () => {
       <div className="text-center mt-8 text-gray-300 text-xs">
         <p className="pb-1">Developed with Next.js and Tailwind</p>
         <p>@2024 Dobooro</p>
-        <a href="https://jparkley.github.io/portfolio-react/" target="_blank">
+        {/* <a href="https://jparkley.github.io/portfolio-react/" target="_blank">
           <Image
             src="/fight-training.gif"
             width={100}
@@ -166,7 +166,7 @@ const RightProjects = () => {
             className="float-right"
             alt="Taekwondo Owl"
           />
-        </a>
+        </a> */}
       </div>
     </div>
   );

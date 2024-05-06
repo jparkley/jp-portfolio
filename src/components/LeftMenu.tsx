@@ -3,18 +3,18 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 const LeftMenu = () => {
   return (
     <>
-      <div className="flex justify-center pb-8 pl-2">
+      <div className="flex lg:justify-center pb-8 pl-2">
         <a href="/">
-          <img src="./psa.png" width="120" />
+          <img src="./psa3.png" width="120" />
         </a>
       </div>
 
-      <div className="text-center">
+      <div className="lg:text-center text-left">
         {/* <h1 className="text-4xl font-extrabold mb-4">Janelle Parklee</h1> */}
         <h4 className="text-2xl font-bold">Senior Full Stack Engineer</h4>
       </div>
 
-      <div className="text-center mt-14 mb-20">
+      <div className="lg:text-center text-left mt-14 lg:mb-20 mb-12">
         <div className="mb-3">
           <a href="#intro">Intro</a>
         </div>
@@ -22,7 +22,7 @@ const LeftMenu = () => {
           <a href="#projects">Projects</a>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex lg:justify-center">
         <div>
           <a
             href="https://www.credly.com/badges/9a4952ec-3084-44da-b86d-8684bbf90d72/linked_in_profile"
@@ -63,7 +63,7 @@ const LeftMenu = () => {
           </a>
         </div>
       </div>
-      <div className="flex justify-center mt-10 pl-2">
+      <div className="flex lg:justify-center mt-10 pl-2">
         <a href="https://www.linkedin.com/in/janelleparklee/" target="_blank">
           <AiFillLinkedin size={42} className="mr-4" />
         </a>
@@ -72,7 +72,7 @@ const LeftMenu = () => {
         </a>
       </div>
       <div>
-        <p className="mt-20 text-center text-sm font-light">
+        <p className="lg:mt-20 mt-12 lg:text-center text-sm font-light">
           Driving Excellence
           <br /> with Every Line of Code
         </p>

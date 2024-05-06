@@ -1,7 +1,7 @@
 const RightIntro = () => {
   return (
     <>
-      <div id="intro" className="pt-5 pb-10">
+      <div id="intro" className="lg:pt-5 pb-14">
         <div className="text-left mb-5">
           <p>
             Hi, my name is{" "}
