@@ -73,6 +73,42 @@ const RightProjects = () => {
           </p>
         </div>
       </div>
+
+      {/* Form in Vue.js */}
+      <div className="flex mt-14">
+        <div className="w-1/2">
+          <Image
+            src="/site-form-01-s.png"
+            width={400}
+            height={356}
+            className="float-left pr-10"
+            alt="Simple Form: Vue.js, Pinia, Composition API"
+          />
+        </div>
+        <div className="w-2/3">
+          <p className="text-extrabold text-sky-400 text-xl">Ticket Form</p>
+          <p className="text-sm pt-4 text-cyan-100 ">
+            Simple Form: Vue.js, Pinia, Composition API & Tailwind CSS
+          </p>
+          <p className="pt-8">
+            <a
+              href="https://jparkley.github.io/vuejs-ticket-form-deployment/"
+              target="_blank"
+              className="inline-flex items-center justify-center h-12 px-4 py-0 text-sm text-center text-gray-200 no-underline align-middle transition-all duration-300 ease-in-out bg-transparent border-2 border-gray-600 border-solid rounded-full cursor-pointer select-none hover:text-white hover:border-white focus:shadow-xs focus:no-underline"
+            >
+              Visit Site
+            </a>
+            <a
+              href="https://github.com/jparkley/vuejs-pinia-composition-api"
+              target="_blank"
+              className="ml-4 inline-flex items-center justify-center h-12 px-4 py-0 text-sm text-center text-gray-200 no-underline align-middle transition-all duration-300 ease-in-out bg-transparent border-2 border-gray-600 border-solid rounded-full cursor-pointer select-none hover:text-white hover:border-white focus:shadow-xs focus:no-underline"
+            >
+              Github
+            </a>
+          </p>
+        </div>
+      </div>
+
       {/* ChatV1 MERN */}
       <div className="flex mt-14">
         <div className="w-1/2">
@@ -112,6 +148,9 @@ const RightProjects = () => {
           </p>
         </div>
       </div>
+
+
+
 
       {/* RestaurantV1 MERN */}
       <div className="flex mt-14 mb-20">
